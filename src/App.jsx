@@ -32,17 +32,28 @@ function App() {
 
       {/* tentang */}
       <div className="tentang mt-32 py-10">
-        <div>
-          <p>
+        <div className="xl:w-2/3 lg:w-3/4 w-full mx-auto p-7 bg-zinc-800 rounded-lg">
+          <img src={DataImage.HeroImage} alt="Image" className="w-12 rounded-md mb-10 sm:hidden" />
+          <p className="text-base/loose mb-10">
             I am currently a part of the Bangkit Academy cohort, where I am focusing on Cloud Computing
             . This program has sharpened my skills and prepared me to thrive, aiming to be a skilled and well-rounded 
             expert in the tech industry.
           </p>
-          <div>
-            <img src={DataImage.HeroImage} alt="Image" className="w-12 rounded-md"/>
-            <div>
+          <div className="flex items-center justify-between">
+            <img src={DataImage.HeroImage} alt="Image" className="w-12 rounded-md sm:block
+            hidden"/>
+            <div className="flex items-center gap-6">
               <div>
-                <h1>45 <Span>+</Span></h1>
+                <h1 className="text-4xl mb-1">
+                  45<span className="text-violet-500">+</span>
+                </h1>
+                <p>Proyek Selesai</p>
+              </div>
+              <div>
+                <h1 className="text-4xl mb-1">
+                  4<span className="text-violet-500">+</span>
+                </h1>
+                <p>Tahun Pengalaman</p>
               </div>
             </div>
           </div>
