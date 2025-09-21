@@ -12,8 +12,8 @@ function App() {
           <h1 className="text-5xl/tight font-bold mb-6">Hi, Saya Syauqi Jazuli</h1>
           <p className="text-base/loose mb-6 opacity-50">
             I am a student at Universitas Malikussaleh in Lhokseumawe, passionate about Information
-            Technology. My expertise spans cloud computing and web development, reflecting my dedication 
-            to development and creativity. My diverse skills are my strength in creating comprehensive 
+            Technology. My expertise spans cloud computing and web development, reflecting my dedication
+            to development and creativity. My diverse skills are my strength in creating comprehensive
             and high-quality technology solutions.
           </p>
           <div className="flex items-center sm:gap-4 gap-2">
@@ -21,14 +21,36 @@ function App() {
               Download CV <i className="ri-download-line ri-lg"></i>
             </a>
             <a href="#" className="bg-zinc-700 p-4 rounded-2xl hover:bg-zinc-600">
-              Lihat Proyek 
+              Lihat Proyek
               <i className="ri-arrow-down-line ri-lg"></i>
             </a>
           </div>
         </div>
         <img src={DataImage.HeroImage} alt="Hero Image" className="w-[500px] md:ml-auto" />
       </div>
+
+
+      {/* tentang */}
+      <div className="tentang mt-32 py-10">
+        <div>
+          <p>
+            I am currently a part of the Bangkit Academy cohort, where I am focusing on Cloud Computing
+            . This program has sharpened my skills and prepared me to thrive, aiming to be a skilled and well-rounded 
+            expert in the tech industry.
+          </p>
+          <div>
+            <img src={DataImage.HeroImage} alt="Image" className="w-12 rounded-md"/>
+            <div>
+              <div>
+                <h1>45 <Span>+</Span></h1>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+      {/* tentang */}
     </>
+
   )
 }
 
