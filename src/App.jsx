@@ -1,4 +1,7 @@
 import DataImage from "./data";
+import { listTools } from "./data";
+
+
 function App() {
 
   return (
@@ -36,7 +39,7 @@ function App() {
           <img src={DataImage.HeroImage} alt="Image" className="w-12 rounded-md mb-10 sm:hidden" />
           <p className="text-base/loose mb-10">
             I am currently a part of the Bangkit Academy cohort, where I am focusing on Cloud Computing
-            . This program has sharpened my skills and prepared me to thrive, aiming to be a skilled and well-rounded 
+            . This program has sharpened my skills and prepared me to thrive, aiming to be a skilled and well-rounded
             expert in the tech industry.
           </p>
           <div className="flex items-center justify-between">
@@ -56,6 +59,26 @@ function App() {
                 <p>Tahun Pengalaman</p>
               </div>
             </div>
+          </div>
+        </div>
+        <div className="tools mt-32 ">
+          <h1 className="text-4xl/snug font-bold mb-4">Tools yang di pakai</h1>
+          <p className="xl:w-2/5 lg:w-2/4 md:w-2/3 sm:w-3/4 w-full text-base/loose opacity-50">Berikut ini beberapa tools yang biasa yang pakai untuk pembuatan website ataupun Design</p>
+          <div className="tools-box mt-14 grid lg:grid-cols-4 md:grid-cols-3 sm:grid-cols-2 grid-cols-1 gap-4">
+            {listTools.map(tool => (
+              <div className=" flex items-center gap-2 p-3 border border-zinc-600 group rounded-md
+            hover:bg-zinc-800" key={tool.id}>
+                <img src={tool.gambar} alt="Tools Image" className="w-14 bg-zinc-800 p-1 group-hover:bg-zinc-900" />
+                <div>
+                  <h4 className="font-bold">
+                    {tool.nama}
+                  </h4>
+                  <p className="opacity-50">
+                    {tool.ket}
+                  </p>
+                </div>
+              </div>
+            ))}
           </div>
         </div>
       </div>
