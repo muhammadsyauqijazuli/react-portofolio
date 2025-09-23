@@ -116,11 +116,11 @@ function App() {
       {/* Proyek */}
 
       {/* Kontak */}
-      <div className="kontak mt-32 p-10">
+      <div className="kontak mt-32 sm:p-10 p-0">
         <h1 className="text-4xl mb-2 font-bold text-center">Kontak</h1>
         <p className=" text-base/loose text-center mb-10 opacity-50">Mari Terhubung dengan saya</p>
-        <form action="https://formsubmit.co/syauqialjm93@gmail.com" method="POST" className="bg-zinc-800 p-10 w-fit mx-auto rounded-md" 
-        autoComplete="off">
+        <form action="https://formsubmit.co/syauqialjm93@gmail.com" method="POST"
+        className="bg-zinc-800 p-10 sm:w-fit w-full mx-auto rounded-md" autoComplete="off">
           <div className="flex flex-col gap-6">
             <div className="flex flex-col gap-2">
               <label className="font-semibold">Nama Lengkap</label>
