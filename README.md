@@ -10,25 +10,19 @@ This is a personal portfolio website built with React, Vite, and Tailwind CSS. I
 - Pre-loader: Features a loading animation for a smoother initial page load.
 
 ## 🛠️ Tech Stack
-Core: React, Vite
-
-Styling: Tailwind CSS
-
-Animations: Animate.css, AOS (Animate On Scroll)
-
-Icons: Remixicon
-
-Linting: ESLint
+- Core: React, Vite
+- Styling: Tailwin CSS
+- Animations: Animate.css, AOS (Animate On Scroll)
+- Icons: Remixicon
+- Linting: ESLint
 
 ## 🚀 Getting Started
 Follow these instructions to get a copy of the project up and running on your local machine for development and testing purposes.
 
 ### Prerequisites
 Make sure you have Node.js and npm installed on your system.
-
-Node.js (v18.x or higher is recommended)
-
-npm (comes with Node.js)
+- `Node.js` (v18.x or higher is recommended)
+- npm (comes with Node.js)
 
 ### Installation
 1. Clone the repository:
