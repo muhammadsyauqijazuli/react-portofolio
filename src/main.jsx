@@ -6,9 +6,11 @@ import Navbar from './components/Navbar.jsx'
 
 import "remixicon/fonts/remixicon.css";
 import Footer from './components/Footer.jsx'
+import { PreLoader } from './components/PreLoader.jsx'
 
 createRoot(document.getElementById('root')).render(
   <StrictMode>
+    <PreLoader />
     <div className="container mx-auto p-4">
       <Navbar />
       <App />
