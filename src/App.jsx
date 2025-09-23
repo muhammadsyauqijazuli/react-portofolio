@@ -23,7 +23,7 @@ function App() {
             <a href="#" className="bg-violet-700 p-4 rounded-2xl hover:bg-violet-600">
               Download CV <i className="ri-download-line ri-lg"></i>
             </a>
-            <a href="#" className="bg-zinc-700 p-4 rounded-2xl hover:bg-zinc-600">
+            <a href="#proyek" className="bg-zinc-700 p-4 rounded-2xl hover:bg-zinc-600">
               Lihat Proyek
               <i className="ri-arrow-down-line ri-lg"></i>
             </a>
@@ -35,7 +35,7 @@ function App() {
 
 
       {/* tentang */}
-      <div className="tentang mt-32 py-10">
+      <div className="tentang mt-32 py-10" id="tentang">
         <div className="xl:w-2/3 lg:w-3/4 w-full mx-auto p-7 bg-zinc-800 rounded-lg"
           data-aos="fade-up" data-aos-duration="1000" data-aos-once="true">
           <img src={DataImage.HeroImage} alt="Image" className="w-12 rounded-md mb-10 sm:hidden" loading="lazy" />
@@ -91,7 +91,7 @@ function App() {
       {/* tentang */}
 
       {/* Proyek */}
-      <div className="proyek mt-32 py-10">
+      <div className="proyek mt-32 py-10" id="proyek">
         <h1 className="text-center text-4xl font-bold mb-2" data-aos="fade-up"
         data-aos-duration="1000" data-aos-delay="150" data-aos-once="true">
           Proyek
@@ -125,7 +125,7 @@ function App() {
       {/* Proyek */}
 
       {/* Kontak */}
-      <div className="kontak mt-32 sm:p-10 p-0">
+      <div className="kontak mt-32 sm:p-10 p-0" id="kontak">
         <h1 className="text-4xl mb-2 font-bold text-center" data-aos="fade-up"
         data-aos-duration="1000" data-aos-once="true">Kontak</h1>
         <p className=" text-base/loose text-center mb-10 opacity-50"
