@@ -7,7 +7,7 @@ function App() {
   return (
     <>
       <div className="hero grid md:grid-cols-2 pt-10 items-center xl:gap-0 gap-6 grid-cols-1">
-        <div>
+        <div className="animate__animated animate__fadeInUp animate__delay-3s">
           <div className="flex items-center gap-3 mb-6 bg-zinc-800 w-fit p-4 rounded-2xl">
             <img src={DataImage.HeroImage} alt="Hero Image" className="w-10 rounded-md" loading="lazy" />
             <q>kode yang indah, lahir dari ketekunan. 😁</q>
@@ -29,7 +29,8 @@ function App() {
             </a>
           </div>
         </div>
-        <img src={DataImage.HeroImage} alt="Hero Image" className="w-[500px] md:ml-auto" loading="lazy" />
+        <img src={DataImage.HeroImage} alt="Hero Image" className="w-[500px] md:ml-auto
+        animate__animated animate__fadeInUp animate__delay-4s" loading="lazy" />
       </div>
 
 
